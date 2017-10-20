@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="iconfont/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+		<title>首页</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			body{
+				font-size: 62.5%;
+				width: 100%;
+				height: 100%;
+			}
+			header{
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+			}
+			.logo{
+				margin-top: 0.8rem;
+				margin-left: 0.9rem;
+				width: 10.7rem;
+				height: 3.6rem;
+			}
+			.logo img{
+				width: 100%;
+			}
+			.logo1{
+				width: 7.2rem;
+				height: 4.5rem;
+				margin-top: 0.8rem;
+			}
+			.logo1 ul{
+				width: 7.2rem;
+				height: 4.5rem;
+				display: flex;
+				justify-content: space-around;
+			}
+			.logo1 ul li{
+				width: 100%;
+			}
+			.icon-user{
+				font-size: 2.25rem;
+				color: #999999;
+			
+			}
+			.icon-nav{
+				font-size:1.65rem;
+				color: #999999;
+				margin-top: 0.2rem;
+			}
+			.banner{
+				width: 100%;
+				margin-top: 0.8rem;
+			}
+			.banner img{
+				width: 100%;
+			}
+			.div1{
+				width: 100%;
+			}
+			.div1>ul{
+				width: 100%;
+				display: flex;
+				justify-content: space-around;
+				font-size: 1.4rem;
+				
+			}
+			.div1>ul>li>img{
+				width: 4.5rem;
+				height: 4.5rem;
+			}
+			.div1>ul>li>p{
+				font-size: 0.8rem;
+				color: #333333;
+				text-align: center;
+			}
+			.div1>ul:nth-child(1){
+				margin-top: 0.3rem;
+			}
+			.div1>ul:nth-child(2){
+				margin-top: 0.3rem;
+			}
+			.div2{
+				width: 100%;
+				height: 0.9rem;
+				margin-top: 2rem;
+				background: #CCCCCC;
+			}
+			.text{
+				width: 100%;
+				margin-top: 1.2rem;
+			}
+			.div3{
+				width: 100%;
+			}
+			.div3>span:nth-child(1){
+				font-size: 1.8rem;
+				color: #000;
+				border-left: 0.25rem solid #45CC9A;
+			}
+			.div3>span:nth-child(2){
+				font-size: 1.2rem;
+				color: #999;
+			}
+			.div4{
+				width: 100%;
+				margin-top: 1.6rem;
+			}
+			.div4>img{
+				width: 100%;
+			}
+			.div5{
+				width: 100%;
+				margin-top: 2.8rem;
+			}
+			.div5>ul{
+				display: flex;
+				justify-content: space-around;
+			}
+			.div5>ul>li{
+				font-size: 0.8rem;
+				color: #000000;
+			}
+			.div5>ul>li>span{
+				font-size: 1rem;
+				color: #63A35C;
+			}
+			.text1{
+				width: 100%;
+				margin-top: 1.5rem;
+			}
+			.text1>.div3{
+				width: 100%;
+			}
+			.text1>.div3>span:nth-child(1){
+				font-size: 1.8rem;
+				color: #000;
+				border-left: 0.25rem solid #45CC9A;
+			}
+			.text1>.div3>span:nth-child(2){
+				font-size: 1.2rem;
+				color: #999;
+			}
+			.div6{
+				width: 100%;
+				text-align: center;
+			}
+			.div6>input{
+				width: 20rem;
+				height: 3.5rem;
+				border-radius: 0.25rem;
+				margin-top: 1.25rem;
+				font-size: 1.4rem;
+			}
+			.div6>button{
+				width: 20rem;
+				height: 3.5rem;
+				margin-top: 1.25rem;
+				font-size: 1.8rem;
+				background: orange;
+				color: white;
+			}
+			.div7{
+				width: 100%;
+			}
+			.div7>ul{
+				width: 100%;
+				margin-top: 0.2rem;
+				display: flex;
+				justify-content: space-around;
+				font-size: 1.4rem;
+				
+			}
+			.div7>ul>li>img{
+				width: 4.5rem;
+				height: 4.5rem;
+			}
+			.div7>ul>li>p:nth-child(2){
+				margin-top: 1.25rem;
+				font-size: 1.8rem;
+				color: #000000;
+				text-align: center;
+			}
+			.div7>ul>li>p:nth-child(3){
+				width: 6rem;
+				height: 1.2rem;
+				height: 1.6rem;
+				background: #63A35C;
+				font-size: 1.2rem;
+				color: white;
+				text-align: center;
+			}
+			.div8{
+				width: 100%;
+				margin-top: 1.8rem;
+				display: flex;
+				justify-content: center;
+			}
+			.div8>p{
+				border: 1px solid gainsboro;
+				height: 3.5rem;
+				width: 50%;
+				text-align: center;
+				line-height: 3.5rem;
+				font-size: 1.4rem;
+				color: #63A35C;
+			}
+			.div8>p>span{
+				height: 1.4rem;
+			}
+			.text2{
+				width: 100%;
+			}
+			.text2>img{
+				width: 100%;
+			}
+			.text3{
+				width: 100%;
+			}
+			.text3>.text4{
+				width: 100%;
+				display: flex;
+				justify-content: space-around;
+			}
+			.text4>img{
+				width: 40%;
+			}
+			.text5{
+				width: 100%;
+				margin-top: 1rem;
+				display: flex;
+				font-size: 1.4rem;
+				color: #000000;
+			}
+			.text5>p{
+				background: #63A35C;
+				border-radius: 0.1rem;
+				color: white;
+				margin-left: 0.2rem;
+				font-size: 1.2rem;
+			}
+			.baby{
+				width: 100%;
+				display: flex;
+				border-bottom: 1px solid gainsboro;
+			}
+			.baby>.baby1{
+				width: 9.5rem;
+				height: 7.25rem;
+			}
+			.baby1>img{
+				width: 90%;
+				margin-top: 1rem;
+				margin-left: 1rem;
+			}
+			
+			.baby2>p{
+				font-size: 1rem;
+				color: #000000;
+				margin-top: 1rem;
+				margin-left: 1rem;
+			}
+			.baby2>p>span{
+				font-size: 1.2rem;
+				color: #CCCCCC;
+			}
+			.wenzi{
+				width: 100%;
+				margin-top: 1rem;
+			}
+			.wenzi>p{
+				font-size: 1.2rem;
+				color: #CCCCCC;
+			}
+			footer{
+				width: 100%;
+				margin-top: 0.1rem;
+			}
+			footer>p{
+				text-align: center;
+				font-size: 1.4rem;
+				color: #333333;
+			}
+			footer>p>span{
+				font-size: 1.6rem;
+				color: #63A35C;
+			}
+			footer>ul{
+				width: 100%;
+				display: flex;
+				justify-content: space-around;
+			}
+			footer>ul>li{
+				font-size: 1.2rem;
+				color: #000000;
+			}
+			footer>.bottom{
+				position: fixed;
+				bottom: 0;
+				background: #000000;
+				background-image: url("img/quoten_bottom.png");
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="img/logo.png" />
+			</div>
+			<div class="logo1">
+				<ul>
+					<li class=" icon iconfont icon-user"><p style="font-size:1.1rem; color: #999;">我的</p></li>
+					<li class=" icon iconfont icon-nav"><p style="font-size: 1.1rem; color: #999;margin-top: 0.9rem;">导航</p></li>
+				</ul>
+			</div>
+		</header>
+		<div class="banner">
+			<img src="img/banner.jpg" />
+		</div>
+		<div class="div1">
+			<ul>
+				<li><img src="img/1首页_spec.gif"/><p>装修方案</p></li>
+				<li><img src="img/1首页_spec.gif"/><p>效果图</p></li>
+				<li><img src="img/1首页_spec.gif"/><p>设计师</p></li>
+				<li><img src="img/1首页_spec.gif"/><p>装修工地</p></li>
+			</ul>
+			<ul>
+				<li><img src="img/1首页_spec.gif"/><p>装修攻略</p></li>
+				<li><img src="img/1首页_spec.gif"/><p>装修贷款</p></li>
+				<li><img src="img/1首页_spec.gif"/><p>免费预约</p></li>
+				<li><img src="img/1首页_spec.gif"/><p>十秒报价</p></li>
+			</ul>
+		</div>
+		<div class="div2"></div>
+		<div class="text">
+			<div class="div3">
+				<span>全屋装修</span>
+				<span>包设计、包主材、包水电、包施工</span>
+			</div>
+			<div class="div4">
+				<img src="img/img1.jpg" />
+			</div>
+			<div class="div5">
+				<ul>
+					<li><span class="icon iconfont icon-zero"></span>0增项,标准施工</li>
+					<li><span class="icon iconfont icon-protection-fill"></span>杜绝项目外包</li>
+					<li><span class="icon iconfont icon-price"></span>装修贷款</li>
+				</ul>
+			</div>
+		</div>
+		<div class="div2"></div>
+		<div class="text1">
+			<div class="div3">
+				<span>装修预约</span>
+				<span>免费上门量房,设计方案满意为止</span>
+			</div>
+			<div class="div6">
+				<input type="text" placeholder="小区名" /><br />
+				<input type="text" placeholder="手机号" /><br />
+				<input type="text" placeholder="建筑面积" /><br />
+				<button>立即申请</button>
+			</div>
+		</div>
+		<div class="div2"></div>
+		<div class="text1">
+			<div class="div3">
+				<span>设计师</span>
+			</div>
+			<div class="div7">
+				<ul>
+					<li><img src="img/1首页_spe.gif"/><p>吴飞柯</p><p>优秀</p></li>
+					<li><img src="img/1首页_spe.gif"/><p>陆炎龙</p><p>主任</p></li>
+					<li><img src="img/1首页_spe.gif"/><p>张海建</p><p>总监</p></li>
+					<li><img src="img/1首页_spe.gif"/><p>陈冲</p><p>优秀</p></li>
+				</ul>
+			</div>
+			<div class="div8">
+				<p>换一换<span class="icon iconfont icon-change"></span></p>
+				<p>更多设计师<span class="icon iconfont icon-more"></span></p>
+			</div>
+		</div>
+		<div class="div2"></div>
+		<div class="text1">
+			<div class="div3">
+				<span>设计师</span>
+			</div>
+			<div class="text2">
+				<img src="img/1页_spec.gif" />
+			</div>
+			<div class="text3">
+				<div class="text4">
+					<img src="img/02首页_spec.gif" />
+					<img src="img/02首页_spec.gif" />
+				</div>
+				<div class="text4">
+					<img src="img/02首页_spec.gif" />
+					<img src="img/02首页_spec.gif" />
+				</div>
+				<div class="div8">
+					<p>换一换<span class="icon iconfont icon-change"></span></p>
+					<p>更多效果图<span class="icon iconfont icon-more"></span></p>
+				</div>
+			</div>
+		</div>
+		<div class="text1">
+			<div class="div3">
+				<span>工地直播</span>
+			</div>
+			<div class="text2">
+				<img src="img/1页_spec.gif" />
+			</div>
+			<div class="text5">
+				重汽嘉泽苑7东
+				<p>泥木工程</p>
+			</div>
+			<div class="div8">
+				<p>换一换<span class="icon iconfont icon-change"></span></p>
+				<p>更多工地直播<span class="icon iconfont icon-more"></span></p>
+			</div>
+		</div>
+		<div class="text1">
+			<div class="div3">
+				<span>装修攻略</span>
+			</div>
+			<div class="baby">
+				<div class="baby1">
+					<img src="img/3首页_spec.gif" />	
+				</div>
+				<div class="baby2">
+					<p>房子交付验方,验房师是做什么的?</p>
+					<p><span class="icon iconfont icon-time">2016-07-07</span>&nbsp;&nbsp;&nbsp;<span class="icon iconfont icon-view">115</span></p>
+				</div>
+			</div>
+			<div class="baby">
+				<div class="baby1">
+					<img src="img/3首页_spec.gif" />	
+				</div>
+				<div class="baby2">
+					<p>房子交付验方,验房师是做什么的?</p>
+					<p><span class="icon iconfont icon-time">2016-07-07</span>&nbsp;&nbsp;&nbsp;<span class="icon iconfont icon-view">115</span></p>
+				</div>
+			</div>
+			<div class="baby">
+				<div class="baby1">
+					<img src="img/3首页_spec.gif" />	
+				</div>
+				<div class="baby2">
+					<p>房子交付验方,验房师是做什么的?</p>
+					<p><span class="icon iconfont icon-time">2016-07-07</span>&nbsp;&nbsp;&nbsp;<span class="icon iconfont icon-view">115</span></p>
+				</div>
+			</div>
+			<div class="div8">
+				<p>换一换<span class="icon iconfont icon-change"></span></p>
+				<p>更多工地直播<span class="icon iconfont icon-more"></span></p>
+			</div>
+		</div>
+		<div class="div2"></div>
+		<div class="wenzi">
+			<p>
+				&nbsp;&nbsp;&nbsp;&nbsp;房先森互联网家装有别于传统装修公司与其他装修中介平台，以自营模式整合设计师与项目经理，杜绝项目转包外包但是；感觉啊泡个跑；时间噶；时间gdpa；哦就是看到个，俺妈说了大概爬山；干嘛的可怕； 
+				深刻的噶pose结果就阿婆文件规定什么
+			</p>
+		</div>
+		<div class="div2"></div>
+		<footer>
+			<p><span class="icon iconfont icon-designer"></span>服务热线:400-9977-658</p>
+			<ul>
+				<li>触屏版</li>
+				<li>电脑版</li>
+				<li>关于我们</li>
+				<li>联系我们</li>
+			</ul>
+			<p><span class="icon iconfont icon-designer"></span>服务热线:400-9977-658</p>
+			<div class="bottom"></div>
+		</footer>
+	</body>
+</html>
+<!--高萌-->

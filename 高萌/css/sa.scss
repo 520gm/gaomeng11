@@ -1,0 +1,173 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-size: 62.5%;
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 5rem;
+    background: #63A35C;
+    display: flex;
+    justify-content: space-around;
+    img{
+        width: 30%;
+    }
+    .logo1{
+        img{
+            width:100%;
+        }
+    }
+    .icon-close{
+              
+    }
+}
+.input{
+    width: 100%;
+    margin-top: 0.5rem;
+    text-align: center;
+    input{
+        width: 15rem;
+        height: 2rem;
+        color: #aaa;
+        font-size: 1.4rem;
+        border: 1px solid #63A35C;
+    }
+    button{
+        width: 6.9rem;
+        height: 2rem;
+        background: #63A35C;
+        color: white;
+    }
+}
+.div2{
+    width: 100%;
+    height: 0.9rem;
+    margin-top: 2rem;
+    background: #CCCCCC;
+}
+.banner{
+    width: 100%;
+    ul{
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+        li{
+            font-size: 1.4rem;
+        }
+    }
+    hr{
+        margin-top: 1rem;
+    }
+    .banner1{
+        width: 100%;
+        ul{
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            li{
+               height:5.25rem;
+               font-size: 2rem;
+               color: #63A35C;
+                p{
+                   font-size: 1rem;
+                   color: #000000;
+                }
+            }
+        }
+    }
+   .banner2{
+       width: 100%;
+       height: 3.5rem;
+       margin-top: 1rem;       
+       p{
+          width: 80%;
+          height: 3.5rem;
+          line-height: 3.5rem;
+          margin-left: 2rem;
+          text-align: center;
+          border: 1px solid #63A35C;
+          font-size: 1rem;
+          color: #63A35C;
+       }
+   } 
+}
+.text1{
+    width: 100%;
+    margin-top: 1.5rem;
+    .div3{
+      width: 100%;
+      span{
+        font-size: 1.8rem;
+        color: #000;
+        border-left: 0.25rem solid #45CC9A;
+       }
+    }
+    .baby{
+        width: 100%;
+        display: flex;
+        border-bottom:1px solid gainsboro ;
+        .baby1{
+            width: 9.5rem;
+            height: 7.25rem;
+            img{
+                width: 100%;
+            }
+        }
+        .baby2{
+            p{
+                font-size: 1.5rem;
+                color: #000000;
+            }
+            span{
+                font-size: 1.2rem;
+                color: #000000;
+            }
+        }
+    }
+    .banner2{
+       width: 100%;
+       height: 3.5rem;
+       margin-top: 1rem;       
+       p{
+          width: 80%;
+          height: 3.5rem;
+          line-height: 3.5rem;
+          margin-left: 2rem;
+          text-align: center;
+          border: 1px solid #63A35C;
+          font-size: 1rem;
+          color: #63A35C;
+       }
+    }
+}
+footer{
+    width: 100%;
+    margin-top: 0.1rem;
+    p{
+     text-align: center;
+     font-size: 1.4rem;
+     color: #333333;
+     span{
+            font-size: 1.6rem;
+            color: #63A35C;
+        }
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        li{
+            font-size: 1.2rem;
+             color: #000000;
+        }
+   }
+}
+           

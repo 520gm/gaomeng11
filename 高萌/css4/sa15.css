@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%; }
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  header .logo {
+    margin-top: 0.8rem;
+    margin-left: 0.9rem;
+    width: 10.7rem;
+    height: 3.6rem; }
+    header .logo img {
+      width: 100%; }
+  header .zt {
+    margin-top: 0.8rem;
+    width: 10.7rem;
+    height: 3.6rem;
+    font-size: 1.8rem;
+    color: #000000; }
+  header .logo1 {
+    width: 7.2rem;
+    height: 4.5rem;
+    margin-top: 0.8rem; }
+    header .logo1 ul {
+      width: 7.2rem;
+      height: 4.5rem;
+      display: flex;
+      justify-content: space-around; }
+      header .logo1 ul li {
+        width: 100%; }
+  header .icon-user {
+    font-size: 2.25rem;
+    color: #999999; }
+  header .icon-nav {
+    font-size: 1.65rem;
+    color: #999999;
+    margin-top: 0.2rem; }
+
+.div2 {
+  width: 100%;
+  height: 0.9rem;
+  background: #CCCCCC;
+  margin-top: 1rem; }
+
+.header {
+  width: 100%; }
+  .header .logo3 {
+    width: 100%;
+    margin-top: 1rem; }
+    .header .logo3 img {
+      width: 100%; }
+  .header .zt {
+    width: 100%;
+    margin-top: 1.8rem; }
+    .header .zt p {
+      text-align: center;
+      font-size: 1.8rem; }
+  .header .header1 {
+    width: 95%;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; }
+    .header .header1 span {
+      width: 10rem;
+      height: 0.1rem;
+      background: #CCCCCC; }
+    .header .header1 li {
+      width: 20%;
+      padding: 0 0.25rem; }
+      .header .header1 li img {
+        width: 100%; }
+  .header .inp {
+    width: 100%;
+    text-align: center; }
+    .header .inp input {
+      width: 50%;
+      height: 2rem;
+      border: 1px solid #EEEEEE;
+      margin-top: 1rem;
+      border-radius: 0.5rem;
+      outline: none;
+      font-size: 1rem; }
+    .header .inp .btn {
+      width: 50%;
+      height: 2rem;
+      border-radius: 0.5rem;
+      background: orange;
+      color: white;
+      font-size: 1rem; }
+  .header .banner1 {
+    width: 95%;
+    height: 8rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border: 0.03rem dotted #2BB281;
+    position: relative;
+    padding-bottom: 0.36rem; }
+    .header .banner1 p {
+      width: 97%;
+      margin: 0 auto;
+      text-align: center;
+      text-indent: 2em;
+      font-size: 1rem;
+      line-height: 1rem;
+      margin-top: 0.36rem; }
+      .header .banner1 p span {
+        color: #2BB281; }
+
+.text1 {
+  width: 100%; }
+  .text1 .zt {
+    width: 100%;
+    margin-top: 1.8rem; }
+    .text1 .zt p {
+      text-align: center;
+      font-size: 1.8rem; }
+  .text1 .header1 {
+    width: 95%;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; }
+    .text1 .header1 span {
+      width: 10rem;
+      height: 0.1rem;
+      background: #CCCCCC; }
+    .text1 .header1 li {
+      width: 20%;
+      padding: 0 0.25rem; }
+      .text1 .header1 li img {
+        width: 100%; }
+  .text1 .text3 {
+    width: 100%; }
+    .text1 .text3 ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      .text1 .text3 ul li {
+        width: 25%;
+        border-right: 1px solid #CCCCCC;
+        border-bottom: 1px solid #CCCCCC; }
+        .text1 .text3 ul li img {
+          width: 50%;
+          margin-left: 1rem; }
+        .text1 .text3 ul li p {
+          text-align: center; }
+
+footer {
+  width: 100%; }
+  footer .top {
+    width: 100%; }
+    footer .top p {
+      text-align: center;
+      color: #000000;
+      font-size: 1.5rem; }
+      footer .top p span {
+        font-size: 2rem;
+        color: #63A35C; }
+  footer .top1 {
+    width: 100%; }
+    footer .top1 ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-around; }
+      footer .top1 ul li {
+        font-size: 1rem; }
+
+.wenzi {
+  width: 100%;
+  margin-top: 1rem; }
+  .wenzi p {
+    font-size: 1.2rem; }
+
+.list {
+  width: 100%;
+  height: 6rem;
+  line-height: 6rem;
+  position: fixed;
+  bottom: 0;
+  background: rgba(150, 150, 152, 0.9);
+  bottom: 0; }
+  .list p {
+    text-align: center;
+    font-size: 1.8rem;
+    color: white; }
+    .list p span {
+      font-size: 1.8rem; }
+
+/*# sourceMappingURL=sa15.css.map */

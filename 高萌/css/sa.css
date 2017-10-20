@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%; }
+
+header {
+  width: 100%;
+  height: 5rem;
+  background: #63A35C;
+  display: flex;
+  justify-content: space-around; }
+  header img {
+    width: 30%; }
+  header .logo1 img {
+    width: 100%; }
+
+.input {
+  width: 100%;
+  margin-top: 0.5rem;
+  text-align: center; }
+  .input input {
+    width: 15rem;
+    height: 2rem;
+    color: #aaa;
+    font-size: 1.4rem;
+    border: 1px solid #63A35C; }
+  .input button {
+    width: 6.9rem;
+    height: 2rem;
+    background: #63A35C;
+    color: white; }
+
+.div2 {
+  width: 100%;
+  height: 0.9rem;
+  margin-top: 2rem;
+  background: #CCCCCC; }
+
+.banner {
+  width: 100%; }
+  .banner ul {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around; }
+    .banner ul li {
+      font-size: 1.4rem; }
+  .banner hr {
+    margin-top: 1rem; }
+  .banner .banner1 {
+    width: 100%; }
+    .banner .banner1 ul {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: space-around; }
+      .banner .banner1 ul li {
+        height: 5.25rem;
+        font-size: 2rem;
+        color: #63A35C; }
+        .banner .banner1 ul li p {
+          font-size: 1rem;
+          color: #000000; }
+  .banner .banner2 {
+    width: 100%;
+    height: 3.5rem;
+    margin-top: 1rem; }
+    .banner .banner2 p {
+      width: 80%;
+      height: 3.5rem;
+      line-height: 3.5rem;
+      margin-left: 2rem;
+      text-align: center;
+      border: 1px solid #63A35C;
+      font-size: 1rem;
+      color: #63A35C; }
+
+.text1 {
+  width: 100%;
+  margin-top: 1.5rem; }
+  .text1 .div3 {
+    width: 100%; }
+    .text1 .div3 span {
+      font-size: 1.8rem;
+      color: #000;
+      border-left: 0.25rem solid #45CC9A; }
+  .text1 .baby {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid gainsboro; }
+    .text1 .baby .baby1 {
+      width: 9.5rem;
+      height: 7.25rem; }
+      .text1 .baby .baby1 img {
+        width: 100%; }
+    .text1 .baby .baby2 p {
+      font-size: 1.5rem;
+      color: #000000; }
+    .text1 .baby .baby2 span {
+      font-size: 1.2rem;
+      color: #000000; }
+  .text1 .banner2 {
+    width: 100%;
+    height: 3.5rem;
+    margin-top: 1rem; }
+    .text1 .banner2 p {
+      width: 80%;
+      height: 3.5rem;
+      line-height: 3.5rem;
+      margin-left: 2rem;
+      text-align: center;
+      border: 1px solid #63A35C;
+      font-size: 1rem;
+      color: #63A35C; }
+
+footer {
+  width: 100%;
+  margin-top: 0.1rem; }
+  footer p {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #333333; }
+    footer p span {
+      font-size: 1.6rem;
+      color: #63A35C; }
+  footer ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    footer ul li {
+      font-size: 1.2rem;
+      color: #000000; }
+
+/*# sourceMappingURL=sa.css.map */
